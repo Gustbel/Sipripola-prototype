@@ -6,8 +6,7 @@ Dispositivo que detecta malos movimientos y posiciones que pudiera tomar la espa
 *Device that detects bad movements and positions that could take your back when doing heavy loading and unloading work.*
 
 
-
-Fotos
+<img src="https://github.com/Gustbel/Sipripola-prototype/blob/master/images/Top.png" width="800" height="400">
 
 
 #### El dispositivo emite un sonido de alerta cuando se ejecutan 3 tipos de malos movimientos: 
@@ -20,7 +19,10 @@ Fotos
 - *Movement 2: The user exerts rotation and torsion on his torso while lifting the load (Image 2).*
 - *Movement 3 (Not implemented in the final prototype): The user exerts rotation and torsion on their wrists when holding the load.*
 
+<img src="https://github.com/Gustbel/Sipripola-prototype/blob/master/images/Mov1.png" width="170" height="200"> <img src="https://github.com/Gustbel/Sipripola-prototype/blob/master/images/Mov2.png" width="200" height="200">
 
+
+> - - Imagen 1 - - - - - - - - Imagen 2
 
 
 #### Funcionamiento / *Functioning* :
@@ -32,6 +34,7 @@ Para detectar el Movimiento 2 se contrasta la medición de aceleración de ambos
 To detect Motion 1, it is only necessary to read the inclination of the sensor 1 with respect to the ground.
 To detect Motion 2, the acceleration measurement of both sensors (on a single axis) is contrasted and when a significant discrepancy is detected it is a signal that a column torsion has been executed.*
 
+<img src="https://github.com/Gustbel/Sipripola-prototype/blob/master/images/Med.png" width="1000" height="300">
 
 #### Marco / *Framework* :
 Este proyecto fue desarrollado en el marco de una Tesis de Diseño Industrial de la estudiante Macarena Marti. Por un lado se desarrolló el diseño de electrónica (hardware y software) e implementación en PCB a cargo de Gustavo Belbruno, estudiante de Ingeniería Electrónica; y por otro el diseño exterior y ergonómico del dispositivo a cargo de Macarena Marti, estudiante de Diseño Industrial.
@@ -42,15 +45,14 @@ The prototype was developed successfully and was used during the thesis presenta
 
 
 
-
 #### Hardware :
-Microcontroller ATmega328 (Arduino Nano), MCU.
-2 Accelerometer MPU-6500 (connection SPI and I2C). 
-Buzzer. 
-Switch ON/OFF. 
-Battery 9V.
+- Microcontroller ATmega328 (Arduino Nano), MCU.
+- 2 Accelerometer MPU-6500 (connection SPI and I2C). 
+- Buzzer. 
+- Switch ON/OFF. 
+- Battery 9V.
 
-
+<img src="https://github.com/Gustbel/Sipripola-prototype/blob/master/images/Device.png" width="500" height="917">
 
 
 #### Futuro / *Future* :
